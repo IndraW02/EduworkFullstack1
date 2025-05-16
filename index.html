@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background: #333;
+        padding: 1em;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+      }
+      nav a {
+        color: white;
+        margin-left: 1em;
+        text-decoration: none;
+      }
+      .container {
+        padding: 20px;
+      }
+      .intro {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .intro-text {
+        width: 50%;
+      }
+      .intro img {
+        width: 400px;
+        height: auto;
+      }
+      .biodata {
+        margin-top: 30px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+      }
+      .portfolio {
+        margin-top: 40px;
+      }
+      .projects {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+      }
+      .project {
+        width: 32%;
+        border: 1px solid #ccc;
+        text-align: center;
+        padding: 10px;
+      }
+      .project img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Section 1: Menu -->
+    <nav>
+      <div><strong>Brand</strong></div>
+      <div>
+        <a href="#">Header</a>
+        <a href="#">Biodata</a>
+        <a href="#">Portofolio</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- Section 2: Judul dan Gambar -->
+      <div class="intro">
+        <div class="intro-text">
+          <h1>Selamat Datang di Website Saya</h1>
+          <p>
+            Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks
+            seperti ini.
+          </p>
+          <a href="#">Pelajari Lebih Lanjut</a>
+        </div>
+        <img src="https://via.placeholder.com/600x400" alt="Gambar Profil" />
+      </div>
+
+      <!-- Section 3: Biodata -->
+      <div class="biodata">
+        <h2>About Me</h2>
+        <p>A brief introduction about myself</p>
+        <table>
+          <tr>
+            <td>Full Name</td>
+            <td>Education</td>
+            <td>Pekerjaan</td>
+          </tr>
+          <tr>
+            <td>Contact</td>
+            <td>Hobi</td>
+            <td>Alamat</td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Section 4: Portofolio -->
+      <div class="portfolio">
+        <h2>Portofolio</h2>
+        <div class="projects">
+          <div class="project">
+            <img src="https://via.placeholder.com/350x200" alt="Project 1" />
+            <h4>Proyek 1</h4>
+            <p>Deskripsi proyek 1.</p>
+          </div>
+          <div class="project">
+            <img src="https://via.placeholder.com/350x200" alt="Project 2" />
+            <h4>Proyek 2</h4>
+            <p>Deskripsi proyek 2.</p>
+          </div>
+          <div class="project">
+            <img src="https://via.placeholder.com/350x200" alt="Project 3" />
+            <h4>Proyek 3</h4>
+            <p>Deskripsi proyek 3.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
